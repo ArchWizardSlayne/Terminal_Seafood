@@ -1,6 +1,8 @@
-##############
-###varibles###
-##############
+import time
+
+#############################
+###name and price varibles###
+#############################
 
 name = input("Please Enter Your Name:\n")
 price = 15.99
@@ -16,6 +18,10 @@ print("\n")
 
 if name == "Wendell" or name == "wendell": 
     print("Hello " + name + " How are you doing sir?\n")
+elif name == "Ethan" or name == "ethan": 
+    print("Get out " + name + " You're not welcome here!!!\n")
+    time.sleep(2)
+    exit()
 else:
     print("Welcome\n")
 
